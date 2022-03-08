@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--These are comments
+Author: Chandler Tyrrell
+Date Created: 8/3/2022
+Purpose: Week7, Lab Exercise
+Modifications:
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" /> <!--8-bit character encoding capable of encoding all possible characters-->
+        <meta name="description" content="Sligo Foodmarket, Fresh Groceries and Meats">
+        <meta name="keywords" content="Sligo, Food, Market, Foodmarket, Meat, Groceries, Fresh, Video">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="styles/"/> <!--Link to external css mainstyle file-->
+        <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <title>Sligo Foodmarket, Fresh Groceries and Meats || Video</title>
+    </head>
+        
+<body> <!-- Body Tag start of body section encoding capable of encoding all possible characters-->
+    
+    <header>
+        <img class="logo" src="images/eat_logo.jpg" alt="logo">
+        <h1>Videos for Foodmarket Sligo</h1>   
+    </header>
+
+    <nav> <!-- Navigation to other pages-->
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="menu.html">Menu</a></li>
+            <li id="active"> <a href="video.html">Video Tour</a></li>
+            <li> <a href="audio.html">Sounds of Food</a></li>
+        </ul>
+    </nav> 
+
+    <main>
+
+        <section class="videoContent">
+        <h2>Video from mp4 video file</h2>
+        <video controls loop width="300" height="369">
+                <source src="video/food.mp4" type="video/mp4">
+                <source src="video/food.ogg" type="video/mp4">
+                Your browser does not support HTML5
+        </video> 
+        </section>
+
+        <section class="videoContent">
+
+            <h2> Video from Youtube using iframe and video tag</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2aTcz7Ed9NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            Use video embed code from youtube.com;
+
+        </section>
+
+        <section class="bottom">
+
+        <h2>About our Food</h2>
+
+        <p>
+            Different from the Rest
+        </p>
+        </section>
+
+    <footer> <!-- Footer grouping content for the bottom of the screen will need css to place at the bottom-->
+        <ul>
+            <li> <a href="Index.html">Home</a></li>
+            <li> <a href="Events.html">Menu</a></li>
+            <li> <a href="Events.html">Video Tour</a></li>
+            <li> <a href="Events.html">Sounds of Food</a></li>
+         </ul>
+        <small>&copy 2022 Sligo Foodmarket</small>
+    </footer>
+</body> 
+</html>
