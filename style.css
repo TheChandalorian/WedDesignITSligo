@@ -1,0 +1,342 @@
+nav{
+    background-color: black;
+    padding: 5px;
+    border: 4px solid purple;
+    border-radius: 4px;
+    border-top: 0px;
+    margin-bottom: 24px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #111111;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none
+}
+
+nav ul li:hover{
+    background-color: darkgray;
+}
+
+#active{
+    color: black;
+    background-color: rgb(231, 171, 18);
+}
+
+header{
+    background-image: url(../images/salonb.jpg);
+    background-repeat: no-repeat;
+    height:200px;
+    color: #111111;
+    border: 4px solid purple;
+}
+
+footer{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #111111;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer li:hover {
+    background-color: darkgray;
+}
+
+table{
+    width: 100%;
+    border: 1px solid #111111;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+}
+
+th,td,tr{
+    border: 1px solid #111111;
+    text-align: left;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: goldenrod;
+}
+
+p {
+    padding: 2px;
+    margin: 30px;
+    text-align: justify;
+}
+
+.p1 {
+    padding: 2px;
+    margin: 30px;
+    text-align: center;
+}
+
+.quotec {
+    padding: 2px;
+    margin: 50px 50px 0px 50px;
+    text-align: justify;
+    font-size: 1.5em
+}
+
+.quoted {
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: justify;
+    font-size: 1em
+}
+
+.productItems{
+    text-align: center;
+    border: 5px solid purple;
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+#homeh1 {
+    margin-left: 32px;
+}
+
+.col_detail {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 32px;
+    margin-right: 32px;
+    column-count: 2;
+    column-rule: 2px solid purple;
+    column-gap: 40px;
+    padding: 10px;
+    text-align: justify;
+}
+
+iframe{
+    float: left;
+    padding: 8px;
+}
+
+#mainlogo {
+    border-right: 4px solid purple;
+    border-bottom: 4px solid purple;
+}
+
+.mainText {
+    padding: 4px;
+    border: 2px;
+    text-align: center;
+}
+
+.profilepic {
+    float: left;
+    width: 30%;
+    border: 4px solid purple;
+    margin: 0 10px 0 10px; 
+}
+
+
+.pic {
+    border: 4px solid purple;
+    margin: 4px;
+    opacity: 0.5;
+}
+
+.pic:hover {
+    opacity: 1.0;
+}
+
+#scissors {
+    border: 4px solid purple;
+    margin-left: 36px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    float:initial;
+}
+
+#owner{
+    border: 4px solid purple;
+    margin-left: 36px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-align: right;
+}
+
+
+footer ul li{
+    list-style-type: none;
+    color: purple;
+    display: inline;
+    padding: 35px;
+}
+
+footer ul li a{
+    color: purple;
+    text-decoration: none;
+    display: inline;
+}
+
+footer{
+    clear:both;
+    border: 1px solid purple;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #111111;
+    text-align: center;
+}
+
+.links{
+    color: white;
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.quote-wrapper{
+    height: 300px;
+    position: relative;
+    width: 300px;
+    padding-bottom: 40px;
+  }
+
+
+.text{
+    background: radial-gradient(
+      ellipse at center,
+      purple 0%,
+      purple 70%,
+      black 70.3%
+    );
+    height: 100%;
+    width: 100%;
+    color: white;
+    position: relative;
+    margin: 0;
+    }
+
+.about_us{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.headers {
+    padding-top: 2px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#salon_video {
+    border: 4px solid purple;
+    margin-left: 36px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    float: left;
+}
+
+.staff {
+    max-height: 350px;
+    overflow: auto;
+}
+    
+#button {
+    padding: 30px;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color:purple;
+    color:white;
+    font-size: 22px;
+    font-family: monospace;
+}
+
+#button:hover {
+    cursor: pointer;
+    font-size: 200%;
+    color: black;
+    background-color: goldenrod;
+   
+}
+
+#location {
+    float: left;
+    padding: 40px;
+    border: purple;
+    border-radius: 4px;
+}
+
+.phone {
+    margin: 0px 40px 0px 40px;
+}
+
+#section_form{
+    font-family: sans-serif;
+    background-image: url(../Images/scissors.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#contact_main {
+    margin: 15px 200px;
+    border: purple;
+    border-radius: 4px;
+    min-height: 500px;
+    }
+
+.required{
+    font-weight:bold;
+    color: red;
+    }
+
+label{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+    }
+
+input{
+    margin-left: 3em;
+    margin-bottom: .5em;
+    width: 220px
+    }
+
+input[type="checkbox"] {width: 15px;}
+input[type="radio"] {width: 10px;}
+    
+#button1, #button2, #reset {
+    margin-top: .5em;
+    text-align: center;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid;
+    }
+
